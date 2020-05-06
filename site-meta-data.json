@@ -1,10 +1,10 @@
 {
-  "title": "Delog",
-  "siteUrl": "https://delog-w3layouts.netlify.com/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "title": "Kaideas – Kai Takahashi's design portfolio",
+  "siteUrl": "https://gatsby-kaideas.netlify.app/",
+  "description": "Kaideas – Kai Takahashi's design portfolio",
   "home": {
-    "title": "Hi! I'm Delog",
-    "description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
+    "title": "I’m Kai Takahashi, a product designer based in San Francisco.",
+    "description": "I’ve spent the last 3 years at <a target=\"_blank\" href=\"https://zume.com\">Zume</a>, where I’ve tackled problems like delivery logistics, the food supply chain, climate change, and company athletics optimization, in ascending order of magnitude."
   },
   "w3l_dom_key": "5e609f7a2d23fCF_Domain_verify"
 }
