@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-'path,': /tds
+'path,': /tds/
 date: 2020-05-06T17:32:34.869Z
 title: Truck Display System
 thumbnail: /assets/tds.svg
