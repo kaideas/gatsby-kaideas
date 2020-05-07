@@ -14,7 +14,7 @@ body {
 body {
   --primary-color: #1B5FBC;
   --primary-text-color: #222;
-  --primary-border-color: #BDBDBD;
+  --primary-border-color: #1B5FBC;
   --featured-bg: #E3F4FF;
   --featured-text: #fff;
   --secondary-color: #1B5FBC;
@@ -46,6 +46,7 @@ a {
   }
   &:hover {
     transition: color var(--fade-duration) ease, border var(--fade-duration) ease;
+    color: var(--primary-color);
   }
 }
 .site-wrapper {
@@ -110,7 +111,12 @@ a {
   a {
     border-bottom: solid 1px var(--primary-border-color);
     font-weight: 400;
+
+    &:hover {
+      border-bottom: dashed 1px var(--primary-color);
+    }
   }
+
 }
 .work {
   font-size: 1.5rem;
