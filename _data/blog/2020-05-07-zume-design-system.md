@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /design-system
-date: 2020-05-07T19:16:14.180Z
+date: 2020-05-04T19:16:00.000Z
 title: Zume Design System
 metaDescription: >-
   Partnering with engineering to support Zume’s rapid growth from 100 to 600
