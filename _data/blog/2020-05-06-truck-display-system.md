@@ -4,8 +4,8 @@ path: /tds
 date: 2020-05-06T17:32:34.869Z
 title: Truck Display System
 metaDescription: >-
-  Truck Display System (TDS) is an internal web app for Zume Pizza to help our
-  Captains cook pizzas and prepare orders on our mobile food trucks.
+  Unlocking Zume Pizza’s scalability by empowering anyone to produce
+  high-quality pizza
 thumbnail: /assets/tds.svg
 ---
 ## Intro
