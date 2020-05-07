@@ -16,12 +16,12 @@ export default () => (
     `}
     render={data => (
       <div className="hero-header">
-        <div className="headline">{data.site.siteMetadata.home.title}</div>
+        <h1 className="headline">{data.site.siteMetadata.home.title}</h1>
         <div 
           className="primary-content" 
           dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description}}
         />
-        <Link to='/contact' className="button -primary">Email me &rarr;</Link>
+        <Link to='/contact' className="button -primary margin-top-sm">Email me &rarr;</Link>
       </div>
     )}
   />
