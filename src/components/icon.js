@@ -18,7 +18,7 @@ function Icon() {
       ></path>
       <path
         d="M50 0C22.4 0 0 22.4 0 50s22.4 50 50 50 50-22.4 50-50S77.6 0 50 0zm0 95.7C24.8 95.7 4.3 75.2 4.3 50S24.8 4.3 50 4.3 95.7 24.8 95.7 50 75.2 95.7 50 95.7z"
-        className="color-change"
+        className="k-circle-outer"
       ></path>
     </svg>
   );
