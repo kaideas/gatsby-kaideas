@@ -1,10 +1,11 @@
 .card {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
     min-height: 240px;
     width: auto;
     margin-top: 1.5rem;
-    padding: 2.5rem 2rem 2.5rem 2rem;
+    padding: 2.5rem;
     background-color: var(--card-bg);
     border-radius: 1rem;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
@@ -38,7 +39,6 @@
       margin-bottom: 0;
     }
     .post-image {
-      padding: 1rem;
       max-width: 100%;
       width: 100%;
       height: auto;
