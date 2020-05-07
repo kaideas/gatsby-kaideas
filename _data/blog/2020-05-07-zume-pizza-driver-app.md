@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /driver-app
-date: 2020-05-07T19:18:50.991Z
+date: 2020-05-03T19:18:00.000Z
 title: Zume Pizza Driver App
 metaDescription: >-
   Improving user experience and cutting down costs for Zume Pizza’s delivery
