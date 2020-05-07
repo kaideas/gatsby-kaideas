@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const PostLink = ({ post }) => (
   <article className="card ">
-    <Link to={post.frontmatter.path}>
+    <Link to={post.frontmatter.path} className="post-image">
       {!!post.frontmatter.thumbnail && (
         <img src={post.frontmatter.thumbnail} alt={post.frontmatter.title + "- Featured Shot"} />
       )}

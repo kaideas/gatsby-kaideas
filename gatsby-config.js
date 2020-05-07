@@ -47,8 +47,8 @@ module.exports = {
         name: `Delog GatbsyJS Starter`,
         short_name: `Delog`,
         start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#381696`,
+        background_color: `#E3F4FF`,
+        theme_color: `#1B5FBC`,
         display: `standalone`,
         icon: "src/images/icon.png",
       },
@@ -56,7 +56,6 @@ module.exports = {
     `gatsby-plugin-sass`, 
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
-    'gatsby-plugin-dark-mode',
     // siteURL is a must for sitemap generation
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
