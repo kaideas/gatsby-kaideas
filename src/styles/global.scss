@@ -6,6 +6,7 @@ body {
   padding: 0;
   --fade-duration: 0.2s;
   --card-duration: 0.3s;
+  font-size: 16px;
 }
 * {
   margin-top: 0
@@ -33,6 +34,8 @@ body {
   font-family: $font-family;
   background-color: var(--background);
   color: var(--text-color);
+  max-width: 1200px;
+  margin: 0 10%;
 }
 a {
   color: var(--primary-text-color);
@@ -47,7 +50,7 @@ a {
 }
 .site-wrapper {
   padding: 16px;
-  max-width: 1232px;
+  max-width: 1200px;
   margin: 0 auto;
   img {
     max-width: 100%;
@@ -243,3 +246,11 @@ a {
     grid-gap: 64px;
   }
 }
+
+// margin on mobile
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    margin: 4vh 20px;
+  }
+  }
