@@ -23,6 +23,7 @@
     }
     > a img {
       display: block;
+      width: 100%;
     }
     > header {
       padding: 24px;
@@ -37,11 +38,6 @@
     .post-meta {
       font-weight: 100;
       margin-bottom: 0;
-    }
-    .post-image {
-      max-width: 100%;
-      width: 100%;
-      height: auto;
     }
     .post-link {
       color: var(--text-color);

@@ -13,6 +13,7 @@ body {
 body {
   --primary-color: #1B5FBC;
   --primary-text-color: #222;
+  --primary-border-color: #BDBDBD;
   --featured-bg: #E3F4FF;
   --featured-text: #fff;
   --secondary-color: #1B5FBC;
@@ -36,7 +37,6 @@ body {
 a {
   color: var(--primary-text-color);
   text-decoration: none;
-  border-bottom: solid 1px var(--primary-border-color);
   transition: color var(--fade-duration) ease, border var(--fade-duration) ease;
   &[aria-current] {
     transition: color var(--fade-duration) ease, border var(--fade-duration) ease;
@@ -103,6 +103,11 @@ a {
   margin-top: 32px;
   margin-bottom: 12px;
   max-width: 58ch;
+
+  a {
+    border-bottom: solid 1px var(--primary-border-color);
+    font-weight: 400;
+  }
 }
 .work {
   font-size: 1.5rem;
