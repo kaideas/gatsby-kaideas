@@ -3,6 +3,9 @@ template: BlogPost
 path: /design-system
 date: 2020-05-07T19:16:14.180Z
 title: Zume Design System
+metaDescription: >-
+  Partnering with engineering to support Zume’s rapid growth from 100 to 600
+  employees
 thumbnail: /assets/design-system.svg
 ---
 I was the lead designer for Zume's first design system. As we were scaling from 100 employees in June 2018 to 600 by December 2019, we needed a way to design and develop products with a consistent user experience faster. By solving a lot of common problems up front—and with limited design resources—we helped our product teams focus more on higher level user problems.
