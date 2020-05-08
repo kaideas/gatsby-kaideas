@@ -12,5 +12,16 @@ thumbnail: /assets/tds.svg
 
 Truck Display System (TDS) is an internal web app for Zume Pizza to help our Captains cook pizzas and prepare orders on our mobile food trucks.
 
+
+
+![loading card on TDS](/assets/tds-load.png)
+
+![TDS inventory](/assets/tds-inventory.png)
+
+![Eject card on TDS](/assets/tds-eject.png)
+
+![Login screen on TDS](/assets/tds-login.png)
+
 ## My Role
+
 I led design from end to end, working closely with our Head of Product, a senior frontend engineer, 3 backend engineers, and our in-house fleet of delivery drivers and truck captains. We held daily standups and were in constant communication (our office had about 25 people). This first phase of the project was completed over 3 months in Spring 2017.
