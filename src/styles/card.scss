@@ -2,7 +2,8 @@
     display: grid;
     // grid-template-columns: 1fr 1fr;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    grid-column-gap: 1.5rem;
+    grid-column-gap: 3rem;
+    grid-row-gap: 1.5rem;
     align-items: center;
 
 
@@ -22,30 +23,36 @@
       transform: translate(5px, 0px);
       transition: all var(--card-duration) ease-out;
     }
-    &:hover .post-link {
+    &:hover .post-title {
       color: var(--primary-color);
     }
-    > a img {
+    img {
       display: block;
       width: 100%;
     }
     > header {
-      padding: 1.5rem 1rem;
+      padding: 0;
     }
     > h2:first-child {
       margin: 0 0 0.5rem 0;
+    }
+
+    .post-image {
+      padding: 1rem;
     }
     .post-title {
       font-size: 1.2rem;
       margin-bottom: 1rem;
     }
+    
     .post-description, .post-meta {
       font-weight: 100;
       margin-bottom: 1rem;
       line-height: 1.5rem;
+      color: var(--secondary-text-color)
     }
     .post-link {
-      color: var(--text-color);
+      color: var(--primary-text-color);
       text-decoration: none;
       font-size: 2rem;
       font-weight: 800;
@@ -79,12 +86,16 @@
     padding: 2rem;
     
     > header {
-      padding: 1.5rem 0 0 0;
+      padding: 0;
     }
 
     .post-link {
       font-size: 1.5rem;
       margin-bottom: 0.5rem;
+    }
+
+    .post-image {
+      padding: 0;
     }
   }
 }

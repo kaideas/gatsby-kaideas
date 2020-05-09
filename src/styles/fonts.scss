@@ -34,3 +34,26 @@ font-display:auto;font-style:normal;font-weight:700;
 }
 
 .tk-synthese { font-family: "synthese",sans-serif; }
+
+
+@font-face {
+    font-family:"jetbrains-mono";
+    src:url("JetBrainsMono-Regular.woff2");
+    font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"jetbrains-mono";
+    src:url("JetBrainsMono-Italic.woff2");
+    font-display:auto;font-style:italic;font-weight:400;
+}
+@font-face {
+    font-family:"jetbrains-mono";
+    src:url("JetBrainsMono-Bold.woff2");
+    font-display:auto;font-style:normal;font-weight:700;
+}
+@font-face {
+    font-family:"jetbrains-mono";
+    src:url("JetBrainsMono-Bold-Italic.woff2");
+    font-display:auto;font-style:italic;font-weight:700;
+}

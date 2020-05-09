@@ -18,18 +18,21 @@ export default function Template({
       <div className="blog-post-container">
         <article className="post">
           
-          {!frontmatter.thumbnail && (
+          {/* {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
-              <h1 className="post-title">{frontmatter.title}</h1>
-              <div className="post-meta">{frontmatter.date}</div>
             </div>
           )}
+          
           {!!frontmatter.thumbnail && (
             <div className="post-thumbnail" style={{backgroundImage: `url(${frontmatter.thumbnail})`}}>
-              <h1 className="post-title">{frontmatter.title}</h1>
-              <div className="post-meta">{frontmatter.date}</div>
             </div>
-          )}
+          )} */}
+
+<h1 className="post-title">{frontmatter.title}</h1>
+
+
+
+
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
