@@ -23,7 +23,7 @@
       transform: translate(5px, 0px);
       transition: all var(--card-duration) ease-out;
     }
-    &:hover .post-title {
+    &:hover .post-link {
       color: var(--primary-color);
     }
     img {

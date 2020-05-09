@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, .headline, .work {
 
 .hero-header {
   padding: 0 0 64px;
+  margin: 0 auto;
 }
 .headline{
   font-size: 2.75rem;
@@ -84,7 +85,7 @@ h1, h2, h3, h4, h5, .headline, .work {
   display: inline-block;
   background: var(--btn-bg);
   border: none;
-  border-radius: 9px;
+  border-radius: .375rem;
   text-decoration: none;
   color: var(--btn-text-color);
   font-size: 16px;
@@ -133,6 +134,17 @@ h1, h2, h3, h4, h5, .headline, .work {
 
 .grids .post-link {
   border-bottom: none;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  margin: 2rem auto 4rem auto;
 }
 
 .post {
@@ -228,20 +240,6 @@ h1, h2, h3, h4, h5, .headline, .work {
     font-size: 1.5rem;
     line-height: 2.125rem;
     margin-left: 2rem;
-  }
-
-
-  .post-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-column-gap: 1.5rem;
-    grid-row-gap: 1.5rem;
-    align-items: center;
-    justify-items: center;
-
-
-    width: 100%;
-    margin: 2rem auto 4rem auto;
   }
 
   .no-shadow img {
@@ -373,18 +371,6 @@ h1, h2, h3, h4, h5, .headline, .work {
     }
   }
 }
-/* Portrait and Landscape */
-// @media only screen 
-// and (min-width: 768px) {
-// }
-@media only screen 
-  and (min-width: 1024px) {
-  .two-grids {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 64px;
-  }
-}
 
 //about page
 .content-wrapper {
@@ -398,9 +384,37 @@ h1, h2, h3, h4, h5, .headline, .work {
   display: none;
 }
 
-a.about-link {
-  // color: var(--primary-color);
+.equal-imgs {
+  max-height: 700px;
+  min-height: 400px;
+  width: 100%;
+  margin-bottom: 4rem;
 }
+
+.equal-imgs img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 300px;
+  max-width: 700px;
+}
+
+
+
+/* Portrait and Landscape */
+// @media only screen 
+// and (min-width: 768px) {
+// }
+@media only screen 
+  and (min-width: 1024px) {
+  .two-grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 64px;
+  }
+}
+
+
 
 
 // margin on mobile
@@ -430,11 +444,11 @@ a.about-link {
     display: inline-block;
   }
 
+  .post-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
 
   .post {
-    .post-grid {
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    }
 
     .diff-grid {
       img {
