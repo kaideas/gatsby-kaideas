@@ -56,9 +56,9 @@ const AboutPage = ({
 
         </div>
           <div className="post-grid equal-imgs">
-          <img src="/assets/molten-mouth.jpg"></img>
+          <img src="/assets/molten-mouth.jpg" alt="Molten Mouth soccer team photo"></img>
 
-          <img src="/assets/fightin-pizzas.jpg"></img>
+          <img src="/assets/fightin-pizzas.jpg" alt="Fightin' Pizzas softballt eam photo"></img>
           </div>
           
 

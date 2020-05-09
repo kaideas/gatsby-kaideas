@@ -29,6 +29,7 @@
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
+    "favicons-webpack-plugin": "^3.0.1",
     "prettier": "^1.19.1"
   },
   "homepage": "https://github.com/kaideas/gatsby-kaideas#readme",

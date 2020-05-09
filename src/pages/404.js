@@ -10,7 +10,7 @@ const notFound = () => {
         <title>Page not found</title>
       </Helmet>
       <div style={{textAlign: "center", padding:"5vh 0", lineHeight: "1.5", margin: "auto"}}>
-      <img src="/assets/404.jpg" style={{ maxWidth: "240px", margin: "0rem auto 1rem auto"}}></img>
+      <img src="/assets/404.jpg" alt="Kay Takahashi" style={{ maxWidth: "240px", margin: "0rem auto 1rem auto"}}></img>
       <h2>Something must have been typed wrong...</h2>
         <h2><Link to="/">Go home</Link></h2>
 
