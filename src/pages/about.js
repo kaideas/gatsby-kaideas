@@ -31,11 +31,11 @@ const AboutPage = ({
           
           <h4>A few other things I'm proud to share</h4>
           <p>
-          I recently won the <a target="_blank" href="https://howlowcanyourlogo.com">How Low Can Your Logo</a> contest, as judged by Michael Bierut, Jessica Hische, and Armin Vit.
+          I recently won the <a target="_blank" rel="noopener noreferrer" href="https://howlowcanyourlogo.com">How Low Can Your Logo</a> contest, as judged by Michael Bierut, Jessica Hische, and Armin Vit.
           </p>
 
           <p>
-          I created <a target="_blank" href="https://medium.com/@kaideas/punctumotion-99ae7858eed">Punctumotion</a>, a motion-based typographic system to express emotion in messages<span class="updown punctumotion">.</span>
+          I created <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@kaideas/punctumotion-99ae7858eed">Punctumotion</a>, a motion-based typographic system to express emotion in messages<span class="updown punctumotion">.</span>
           </p>
 
           <p>
