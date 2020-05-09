@@ -55,10 +55,10 @@ const AboutPage = ({
         </div>
 
         </div>
-                  <div className="post-grid equal-imgs">
-          <img src="https://lh3.googleusercontent.com/_tn6rH8wpRfdwE6KWtPnGZ-9lvVg9Vsc6tWLahcFE0Er--gvtZq6vC0753Iz-wyYO-BX-Cy8TmZsQOyvji6mMNdZMhELxR1CnVT_vb3DCQ_V4tkGIF1rnrGDJDqKKFIuooWVYJ-GvU4Hj-OMpmqO-7BMCMshrI79AY36KVa-d0xveVYxwLHMsbIIesSRbWAd8dvOPEeInQoD5gHSlcq23OuP1EOiDLiD-I1mHEq-xBFitP3paKlsQYLbD4_yIMM3PI1oV_m_YeECkiR9t-5Fmc-j7Vd6vZYGFKyHzBg6WgfhPVmVwlaBtaVTOmai9gVbMYyqN-WSIf9q2ctkYJXuWsa6hkeA9oiUqEUAyJWAJ6mwsQhcC9TD35PPI43SJ50sQZmSXeAD0E1ObsKTuYOvgUwWqIaEaHjy7bFQlDg0n1zxIW9K4AB_rxU0HTm8fuqF0rn9rpgiW3Hw-k3wSDjJeUMbnkmhyfMF4dB0cYnzgsnnxuCdSYiGnDtSBvZQYGobHo6yWZwIxAlaE1C_1OoJf8K2u5EisJjinSP1uW1a7RKMb0NY44005wE3NCKyc5rEdkyXvwhM55nA5NllMZ90r7QQe5s8aJR3pWbMuyRo7PIM4sz6lJ5MhtxMhe8qhy-LswahI8_dLmMxMKhJyK_WxTq7-ZMZR4aFcEDPIAqkCFaP7VyDn7CoXuPybSsGS08=w1439-h1043-no?authuser=0"></img>
+          <div className="post-grid equal-imgs">
+          <img src="/assets/molten-mouth.jpg"></img>
 
-          <img src="https://lh3.googleusercontent.com/8KQwibUxfT7Q7yhDH6Cia_QbhXxeYoVYC4gZ3j1H49bWBOpBzq6w9fho59kBNmw5fDZaaauuxQuTeATM0XgjUePXd10s2xpbjpSTwzTKwOs1WmCF9scr6bE_g8bNiwI8pKO0pkrGNTP72INsQxomXNYvHwfzf66VYf8eGpB61KjeeFVzSJRm1H6qXjDzy8KiDjtNWB605sVnDCRSuBElwx8suiE8jOp2eydtR-uqP4Cdjhzdv6og_oXk1qQQGP9-fNCr69GDKJyvSpvd3aiicnsYVlOclIL56DLLYsBwUwjMRBzYt9oDlhCEfHozrNEXv4GLy2eZza7DTJhVaOxWRSZZb-bvoGayHWPKdJbHXrPYWAaPGJzfIPudg0hmGCmYvTWT2AQ-gflgMRHJmbDNZ7H7f16UUkHp_MVbtVFZqNL7C3ZeYR-Pqf0xe4_3PvFfcGeVcveZDYd8iads53d627A4VBul6u8Xda9ksOkJGqVJFi1_xyI6mRzp4ZYWxjddf4tY0OYMS_Q0WAcBXNFcUZ69FJtkTSVZtICiZM9Sp_88XfDM2ZNxZStmLab7q76vlLqapXGuPz0F-0G7qYZpx6zIOXRfh2sHmbbV2VKD3Dpym49KIA5DyWr0cW4j7ix6L1ckdumjJkXKOlP2Ua9UBqbNRa7XQmlfiwcq5u0h25JgUyOcbaT44eY2PJZe5w=w2020-h1514-no?authuser=0"></img>
+          <img src="/assets/fightin-pizzas.jpg"></img>
           </div>
           
 
