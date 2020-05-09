@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /design-system
+path: /zume-design-system
 date: 2020-05-04T19:16:00.000Z
 title: Zume Design System
 metaDescription: >-

@@ -155,7 +155,7 @@ Ultimately we cranked out this design, using the styles I had established for ou
 - Weekly calls with &pizza to keep a close feedback loop
 - We've identified minor changes, like terminology, printer triggers, order completion times
 
-> More details on turning KDS into a SaaS product coming soon...
+> More details on turning KDS into a SaaS product coming soon... Here's some research artifacts:
 <div class="solo-photo">
 <img src="/assets/kds-ideas.png" alt="insights and ideas from research trip">
 </div>
