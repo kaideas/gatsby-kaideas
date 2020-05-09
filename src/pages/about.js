@@ -26,7 +26,7 @@ const AboutPage = ({
         <a href="https://www.linkedin.com/in/kaideas" target="_blank" rel="noopener noreferrer" className="about-link">LinkedIn</a>
 
         <div className="primary-content">
-          <p>Hi, I'm Kai. I'm an end-to-end product designer who loves diving deep into problems and working cross-functionally to help people with design.</p>
+          <p>Hi, I'm Kai. I'm an end-to-end product designer who loves diving deep into problems and working cross-functionally to design tools to help people.</p>
 
           </div>
 
