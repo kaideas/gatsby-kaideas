@@ -21,9 +21,11 @@ const AboutPage = ({
       <div className="hero-header">
         <h1 className="headline">About me </h1>
 
-        <a href="assets/kai-takahashi-resume-2020.pdf" target="_blank" rel="noopener noreferrer" className="about-link">Resume</a>
+        <a href="https://kaitakahashi.com/assets/kai-takahashi-resume-2020.pdf" rel="noopener noreferrer" className="about-link">Resume</a>
         <span className="interpunct about-link">·</span>
         <a href="https://www.linkedin.com/in/kaideas" target="_blank" rel="noopener noreferrer" className="about-link">LinkedIn</a>
+        <span className="interpunct about-link">·</span>
+        <a href="mailto:kai.takahashi@gmail.com" className="about-link">Email</a>
 
         <div className="primary-content">
           <p>Hi, I'm Kai. I'm an end-to-end product designer who loves diving deep into problems and working cross-functionally to design tools to help people.</p>
@@ -31,6 +33,7 @@ const AboutPage = ({
           </div>
 
          <div className="post">
+           <h4>Design experience</h4>
           <p>I've been a designer over 13 years. 
             I got my first break photoshopping people's heads on the wrong bodies in middle school in Connecticut. I designed logos and sold t-shirts out of my car in high school, and then did more of the same while studying graphic design at Yale. I flexed my sports design muscles while interning at Brandiose and SME, performed VR medical procedures at Digital Surgeons (just checking if you're reading closely, it's actually a forward-thinking digital agency), and I've worked the last 3 years as the first product designer at Zume (originally Zume Pizza) in San Francisco.</p>
           <p>At Zume, I helped grow the design team from 1 to over 20, had a hand in nearly every user interface in production, and even had a literal hand in several pizza photoshoots. I also organized all of our sports teams—The Fightin' Pizzas (softball), Molten Mouth FC (soccer), A Tribe Called Crust, and the Superfoods (multi-sport)—complete with game summaries sent to the whole company every week and custom team uniforms (and stickers!).</p>

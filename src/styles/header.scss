@@ -42,7 +42,8 @@
   display: inline-block;
 
   &:hover {
-    animation: rotate-logo 1.25s infinite ease;
+    animation: rotate-logo 1.25s ease;
+    animation-direction: alternate;
   }
 }
 .k {
@@ -59,21 +60,26 @@
   text-transform: uppercase;
 }
 
-// .mobile-nav {
-//   display: hidden;
-// }
 
 @media (max-width: 700px) {
-  .desktop-nav {
-    display: none;
+  .site-wrapper {
+    padding-top: 0;
   }
 
   .site-header {
-    padding-top: 0;
+    padding: 0;
   }
 
   .navigation {
     margin-bottom: 2px;
+  }
+
+  .navigation a {
+    margin-right: 0;
+  }
+
+  .hero-header {
+    padding-bottom: 2.5rem;
   }
   // .mobile-nav {
   //   display: block;
