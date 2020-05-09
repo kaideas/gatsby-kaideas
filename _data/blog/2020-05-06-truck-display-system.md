@@ -235,3 +235,6 @@ The early success of our first 3 forward deployed trade areas led to our $48M Se
 
 ## Learnings
 Hardware presents a lot of constraints. It's easy to imagine an ideal experience in a world of only software. But once you step into a truck with a complex, engineering-driven cooking system, most of those ideal ideas become pipe dreams, and I learned how to navigate a system that wasn't designed with a user in mind to create user-friendly software.
+
+## People who read this were also enthralled by
+<a href="/kds">Kitchen Display System</a>

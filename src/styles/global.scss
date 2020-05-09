@@ -390,6 +390,14 @@ h1, h2, h3, h4, h5, .headline, .work {
   margin: 0 auto;
 }
 
+.about-link {
+  margin: 0 .75rem 0 0;
+  font-size: 1.375rem;
+}
+
+a.about-link {
+  // color: var(--primary-color);
+}
 
 
 // margin on mobile
@@ -402,7 +410,10 @@ h1, h2, h3, h4, h5, .headline, .work {
     margin: 4vh 20px;
   }
 
-
+  .headline {
+   font-size: 2rem;
+   line-height: 2.5rem;
+  } 
 
 
   .post {

@@ -20,8 +20,14 @@ const AboutPage = ({
       <div className="content-wrapper">
       <div className="hero-header">
         <h1 className="headline">About me </h1>
+
+        <a href="assets/kai-takahashi-resume-2020.pdf" target="_blank" rel="noopener noreferrer" className="about-link">Resume</a>
+        <span className="interpunct about-link">·</span>
+        <a href="https://www.linkedin.com/in/kaideas" target="_blank" rel="noopener noreferrer" className="about-link">LinkedIn</a>
+
         <div className="primary-content">
           <p>Hi, I'm Kai. I'm an end-to-end product designer who loves diving deep into problems and working cross-functionally to help people with design.</p>
+
           </div>
 
          <div className="post">

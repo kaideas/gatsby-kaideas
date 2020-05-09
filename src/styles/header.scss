@@ -3,6 +3,8 @@
   align-items: center;
   font-weight: 300;
   color: var(--secondary-text-color);
+  max-width: 600px;
+
   a {
     color: var(--primary-color);
     border-bottom: solid 1px transparent;
@@ -55,4 +57,25 @@
   border: none;
   font-weight: 900;
   text-transform: uppercase;
+}
+
+// .mobile-nav {
+//   display: hidden;
+// }
+
+@media (max-width: 700px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .site-header {
+    padding-top: 0;
+  }
+
+  .navigation {
+    margin-bottom: 2px;
+  }
+  // .mobile-nav {
+  //   display: block;
+  // }
 }
