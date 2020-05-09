@@ -80,6 +80,7 @@ An order came in, and the Captain would take use a pizza peel to take a pie from
 
 <div class="solo-photo">
   <img src="/assets/tds-load-photo.png" alt="captain taking pizzas from refrigerator">
+    <h5>from Zume Pizza</h5>
 </div>
 
 
@@ -151,9 +152,6 @@ The right side was reserved for actionable details, like which refrigerator slot
   <img src="/assets/tds-card-load.png" alt="load card">
   <img src="/assets/tds-card-eject.png" alt="eject card">
   <img src="/assets/tds-card-prep.png" alt="prep card">
-
-
-
 </div>
 
 ### Balancing screen density with legibility
@@ -190,7 +188,7 @@ I also designed a "Load Soon" card with a timer, to stagger the cook times. That
 
 To reinforce the color system, I used related colors (muted yellow for Load Soon and Pink for Cooking) to tie the anticipatory cards with their action cards.
 
-### Continued feedback: limiting screen interactions even more!
+### Feedback: limiting screen interactions even more!
 Another pain point I noticed was that Captains would often tap "done, done, done" on multiple prep cards. 
 
 We assumed in the first versions that being didactic about each item would be helpful to ensure order accuracy, and since our extras (salad and drinks) didn't use our smart ovens, the Captain had to manually tap "done" on a Prep card to inform the system. The tradeoff was adding in more steps for order accuracy.
@@ -199,6 +197,8 @@ Upon further investigation, it turned out that Captains were using our other han
 
 ### Training prototype
 I built a clickable InVision prototype to help our operations team train our existing fleet and new hires. 
+
+### Log in and Inventory views
 
 <div class="post-grid">
 <img src="/assets/tds-login.png" alt="TDS login">
@@ -232,3 +232,6 @@ The early success of our first 3 forward deployed trade areas led to our $48M Se
 <div class="solo-photo">
   <img src="/assets/tds-launch.png" alt="Truck ribbon-cutting" style="max-width: 500px">
 </div>
+
+## Learnings
+Hardware presents a lot of constraints. It's easy to imagine an ideal experience in a world of only software. But once you step into a truck with a complex, engineering-driven cooking system, most of those ideal ideas become pipe dreams, and I learned how to navigate a system that wasn't designed with a user in mind to create user-friendly software.

@@ -19,7 +19,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {date.getFullYear()} Kai Takahashi · Crafted with <span role="img" aria-label="love">❤️</span></p>
+        <p>&copy; {date.getFullYear()} Kai Takahashi</p>
       </footer>
     </div>
   )
