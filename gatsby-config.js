@@ -4,12 +4,20 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
-// const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
 
 module.exports = {
   /* Your site config here */
   siteMetadata: require("./site-meta-data.json"),
+  // siteMetadata: {
+  //   title: "Kai Takahashi - Product Designer",
+  //   titleTemplate: "%s",
+  //   description:
+  //     "Design portfolio of Kai Takahashi",
+  //   url: "https://kaitakahashi.com", // No trailing slash allowed!
+  //   image: "/asssets/og.png", // Path to your image you placed in the 'static' folder
+  //   twitterUsername: "@kaideas",
+  // },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -61,26 +69,7 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     // siteURL is a must for sitemap generation
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-offline`,
-    // new FaviconsWebpackPlugin({
-    //   logo: './src/logo.png', // svg works too!
-    //   mode: 'webapp', // optional can be 'webapp' or 'light' - 'webapp' by default
-    //   devMode: 'webapp', // optional can be 'webapp' or 'light' - 'light' by default 
-    //   favicons: {
-    //     appName: 'my-app',
-    //     appDescription: 'Kaideas',
-    //     developerName: 'Kai Takahashi',
-    //     developerURL: null, // prevent retrieving from the nearest package.json
-    //     background: '#ddd',
-    //     theme_color: '#333',
-    //     icons: {
-    //       coast: false,
-    //       yandex: false
-    //     }
-    //   }
-    // })
-
-    // `gatsby-plugin-favicon`,
+    `gatsby-plugin-offline`
     
   ],
 }
