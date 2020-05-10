@@ -18,7 +18,7 @@ export default () => (
       <div className="hero-header">
         <h1 className="headline">{data.site.siteMetadata.home.title}</h1>
         <div 
-          className="primary-content mobile-hide" 
+          className="primary-content" 
           dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description}}
         />
         {/* <Link to='/about'>More about me &rarr;</Link> */}

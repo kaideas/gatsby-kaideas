@@ -33,9 +33,9 @@
 .site-header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: .5rem 0;
   background: var(--site-header);
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
   align-items: center;
 }
 .k-circle {
@@ -72,6 +72,7 @@
 
   .site-header {
     padding: 0;
+    margin-bottom: 1rem;
   }
 
   .navigation {
@@ -80,12 +81,14 @@
 
   .navigation a {
     margin-right: 0;
+    margin-left: 0;
+  }
+
+  .navigation .interpunct {
+    margin: 0 12px;
   }
 
   .hero-header {
     padding-bottom: 2.5rem;
   }
-  // .mobile-nav {
-  //   display: block;
-  // }
 }

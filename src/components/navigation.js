@@ -4,7 +4,7 @@ import React from "react"
 export default () => (
   <nav className="navigation"> 
   <a href="/#work" rel="noopener noreferrer">Work</a>
-   <span className="interpunct mobile-hide">·</span>
+   <span className="interpunct">·</span>
    <a href="/about" rel="noopener noreferrer">About</a>
    <span className="interpunct mobile-hide">·</span>
     <a className="mobile-hide" href="https://kaitakahashi.com/assets/kai-takahashi-resume-2020.pdf" 
