@@ -34,6 +34,7 @@ This was great for food quality (where the dwell time was just a few seconds) an
 <figure class="video-container operational-model" width="100%">
     <video width="100%" autoplay loop>
       <source src="/assets/botw.webm" type="video/webm">
+      <source src="/assets/botw.mp4" type="video/mp4">
     </video>
   </figure>
 
@@ -43,6 +44,7 @@ When I joined in March 2017, we were delivering orders out of our commissary (in
 <figure class="video-container operational-model" width="100%">
     <video width="100%" autoplay loop>
       <source src="/assets/fwd-deployment.webm" type="video/webm">
+      <source src="/assets/fwd-deployment.mp4" type="video/mp4">
     </video>
 </figure>
 

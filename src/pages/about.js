@@ -29,7 +29,7 @@ const AboutPage = ({
 
         <div className="primary-content">
         <p>Hi, I'm Kai. I'm an end-to-end product designer who loves diving deep into problems and working cross-functionally to design tools to help people.</p>
-        <img src="/assets/kai-avatar-full.png"></img>
+        <img src="/assets/kai-avatar-full.png" alt="Kai"></img>
         </div>
 
           </div>
