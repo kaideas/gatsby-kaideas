@@ -13,7 +13,7 @@ thumbnail: /assets/kds.svg
 </div>
 
 ## My Role
-Through various iterations of KDS over 3 years, I've collaborated with 5 PMs, software & hardware engineers, product & industrial designers, and stakeholders like Zume Pizza chefs, delivery drivers, and the operations team. I led design for <a href="/tds">the first version for Zume Pizza</a>, for our &pizza partnership, and for launching KDS as our first SaaS product (along with the creative direction for the launch). I rotated on and off of this project with another product designer, who focused on a customer pickup &amp; cubby solution and was my partner on most of the research. 
+Through various iterations of KDS over 3 years, I've collaborated with 5 PMs, software & hardware engineers, product & industrial designers, and stakeholders like Zume Pizza chefs, delivery drivers, and the operations team. I led design for <a href="/tds">the first version for Zume Pizza</a>, for our &pizza partnership, and for launching KDS as our first SaaS product (along with the creative direction for the launch). I rotated on and off of this project with another product designer, who focused on a customer pickup &amp; cubby solution and was my partner on most of the research. I also partnered with another product designer on a multi-location flow.
 
 ## The Challenge
 We first developed KDS as in-house tool (Truck Display System) for Zume Pizza, with an algorithmically-sorted to-do queue and live statuses for 56(!) smart ovens on our delivery trucks. As Zume expanded as a B2B food operations platform, our challenge was to adapt our single use-case app into flexible product that could be used first in any configuration of a Zume Mobile Kitchen, and later for any fast-casual, brick and mortar restaurant.
