@@ -48,8 +48,9 @@
     .post-description, .post-meta {
       font-weight: 100;
       margin-bottom: 1rem;
-      line-height: 1.5rem;
-      color: var(--secondary-text-color)
+      font-size: 1rem;
+      line-height: 1.75rem;
+      color: var(--secondary-text-color);
     }
     .post-link {
       color: var(--primary-text-color);
@@ -104,3 +105,18 @@
     }
   }
 }
+
+// //large screen
+// @media only screen 
+//   and (min-width: 1024px) {
+//     .card {
+//       .post-link {
+//         font-size: 2.5rem;
+//       }
+
+//       .post-description {
+//         font-size: 1.5rem;
+//         line-height: 2.25rem;
+//       }
+//     }
+// }

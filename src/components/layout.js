@@ -12,13 +12,16 @@ export default ({ children }) => {
 
   return (
     <div className="site-wrapper">
+      
       <header className="site-header">
-        <div className="site-title">
-          <Link to="/">
-            <Icon />
-          </Link>
-        </div>
+        <div className="header-content">
+          <div className="site-title">
+            <Link to="/">
+              <Icon />
+            </Link>
+          </div>
         <Navigation />
+        </div>
       </header>
       {children}
       <footer className="site-footer">
