@@ -27,6 +27,6 @@ Luckily, our product and engineering teams were thinking similarly from a code r
 
 I did research sprints on each atomic element—spacing & layout, type, color, icons—diving into many of the public design systems to understand best practices, like Google's Material Design, IBM's Carbon Design, Shopify's Polaris, Apple's HIG, Salesforce's Lightning Design System.
 
-I also dove into other key, non-company specific sources, like <em>Design Systems<em> by Alla Kholmatova and many of Nathan Curtis's EightShapes articles.
+I also dove into other key, non-company specific sources, like <em>Design Systems</em> by Alla Kholmatova and many of Nathan Curtis's EightShapes articles.
 
 > More details to come...
