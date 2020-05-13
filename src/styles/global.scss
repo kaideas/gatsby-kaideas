@@ -456,6 +456,10 @@ html {
     display: inline-block;
   }
 
+  #figma-embed {
+    max-height: 70vh;
+  }
+
   .post-grid {
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   }

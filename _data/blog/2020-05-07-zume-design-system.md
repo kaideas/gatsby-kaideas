@@ -29,4 +29,5 @@ I did research sprints on each atomic element—spacing & layout, type, color, i
 
 I also dove into other key, non-company specific sources, like <em>Design Systems</em> by Alla Kholmatova and many of Nathan Curtis's EightShapes articles.
 
-> More details to come...
+> More details to come...<br><a href="mailto:kai.takahashi@gmail.com" className="about-link">Let me know</a>
+ if you want to learn more.

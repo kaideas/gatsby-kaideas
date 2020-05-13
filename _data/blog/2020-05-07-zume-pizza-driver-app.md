@@ -16,4 +16,5 @@ This was the first project where I focused on building out an atomic design syst
 
 When it comes to collaboration, this project was one of the best. I was partnering with another product designer, which allowed us to bounce ideas off each other and move quickly. Our PM did a great job coordinating between design, engineering, and fleet operations, and leading our acceptance testing. I attended standups most days with our mobile engineering team, and often sat side by side with them. Along with design reviews, we determined points where the Pielot may need to wait for data to load and how we can mitigate that.
 
-> More details to come...
+> More details to come...<br><a href="mailto:kai.takahashi@gmail.com" className="about-link">Let me know</a>
+ if you want to learn more.

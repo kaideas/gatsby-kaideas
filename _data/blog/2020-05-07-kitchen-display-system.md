@@ -9,7 +9,7 @@ thumbnail: /assets/kds.svg
 > Kitchen Display System (KDS) is a standalone web app for restaurants to manage back of house food preparation on tablets. It ingests orders from multiple channels, and guides chefs on what items to cook when, which order they're a part of, and who to hand off to—delivery drivers or pickup customers. 
 
 <div class="solo-photo">
-<iframe style="border: none;" width="100%" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FAVt2T9l1vKyI2rmJKjRpxV%2FKDS-Demo%3Fnode-id%3D251%253A2951%26viewport%3D378%252C95%252C0.04693681374192238%26scaling%3Dscale-down" allowfullscreen></iframe>
+<iframe id="figma-embed" style="border: none;" width="100%" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FAVt2T9l1vKyI2rmJKjRpxV%2FKDS-Demo%3Fnode-id%3D251%253A2951%26viewport%3D378%252C95%252C0.04693681374192238%26scaling%3Dscale-down" allowfullscreen></iframe>
 </div>
 
 ## My Role
