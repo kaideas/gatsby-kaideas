@@ -62,7 +62,7 @@ If we could, we'd increase our potential labor pool, making it cheaper and faste
 > An easy-to-learn, easy-to-use interface will power Zume Pizza to scale rapidly with the Forward Deployment model. 
 
 ## Discovery
-#### Activities: interviewing, observation, ridealongs, first-hand pizza-making, system analysis
+_Activities: interviewing, observation, ridealongs, first-hand pizza-making, system analysis_
 
 
 <div class="diff-grid">
@@ -93,14 +93,14 @@ Inside each truck was a 20-ft long stainless steel kitchen, outfitted with 56 cl
 We equipped each vehicle with a truck computer that created wifi on the truck, to connect to our orders API and inventory manager. When an order came in, the truck computer knew which refrigerator slot to take a pre-topped pizza from, and our backend algorithm determined which oven to assign it to, and its cook profile.
 
 ## Definition
-#### Activities: analyzing observations, identifying pain points, understanding constraints,  defining scope, competitive analysis
+_Activities: analyzing observations, identifying pain points, understanding constraints,  defining scope, competitive analysis_
 
 After understanding the human, operational, and technological systems, I synthesized a few key findings.
 
-### Clarity in the chaos
+### Adding stability to a chaotic environment
 A Captain is always in motion—loading pizzas in and out of the oven, cutting, boxing, storing, handing off to drivers—so it was important to create something stable and constant, a reliable source of information amidst the controlled chaos of a kitchen. A Captain would need to be able to quickly digest information and act upon it. And since they're already quite busy, we should add as little to their workflow as possible.
 
-### Smart, but not user friendly ovens
+### Smart ovens... without displays!
 Our ovens had no visual indicators other than a light and a simple button. So it was near impossible for the user to tell the status of the oven. Our solution would need to show statuses of the ovens—all 56 of them.
 
 <div class="solo-photo">
@@ -115,11 +115,11 @@ We had several key differences from traditional kitchens. Because our pizzas wer
 
 Instead of using kitchen display systems as our main inspiration, action-based mental models like recipes, GPS navigation, and to-do lists provided a clearer framework.
 
-### Making smart bets
+### Lack of precedent &rarr; making smart bets
 Since there wasn't a lot of historic precedent for cooking pizzas on trucks with 56 cloud-connected ovens, we decided our best approach was to make a few smart bets and test with our in-house fleet in real life. While we brainstormed lots of potential interaction models—AR, voice, wearables—we could prove our hypothesis with traditional software, and decided to design for tablets mounted on our trucks. 
 
 ## Development
-#### Activities: sketching, team brainstorming, wireframing, interactive prototyping, user demos
+_Activities: sketching, team brainstorming, wireframing, interactive prototyping, user demos_
 
 Using the to-do list model, I started sketching potential solutions. Fitting 56 ovens and their metadata onto a tablet was a challenge, but since the physical ovens didn't show their status, it was essential to keep this information persistent. 
 
@@ -149,7 +149,7 @@ Identifying information was on the left side, with the most important—the acti
 
 The right side was reserved for actionable details, like which refrigerator slot or oven to use, a countdown timer, or a "Done" button.
 
-<div class="diff-grid no-shadow">
+<div class="diff-grid no-shadow" id="tds-cards">
 
   <img src="/assets/tds-card-load.png" alt="load card">
   <img src="/assets/tds-card-eject.png" alt="eject card">
@@ -177,7 +177,7 @@ To create a strong hierarchy to highlight the most important action, I designed 
 Because Captains already had a variety of tasks around the truck, I wanted to limit their interactions with the screen as much as possible. Instead of tapping "Done" to complete each task, we leveraged the sensors on the oven to detect when a pizza had been loaded and ejected, which removed 2 tablet interactions for every pizza. The only time a Captain needed to report a real world action to the system was to mark an order ready for pickup, which couldn't be detected by any of our hardware. Using the physical oven interactions to update the display helped instill trust that the system knew what was happening.
 
 ## Delivery
-#### Activities: engineering handoff, testing, observation, interviews 
+_Activities: engineering handoff, testing, observation, interviews_
 
 With a working prototype in place to help our Captains prepare real orders from the truck, I spent hours doing observations and analyzing end of shift reports. 
 

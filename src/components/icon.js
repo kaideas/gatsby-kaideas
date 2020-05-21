@@ -2,7 +2,7 @@ import React from "react";
 
 function Icon() {
   return (
-  <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" className="k-circle box-transition">
+  <svg width="48" height="48" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" className="k-circle box-transition">
   <circle cx="48" cy="48" r="46" stroke="var(--primary-color)" stroke-width="4" fill="none"/>
   
   <path fill-rule="evenodd" clip-rule="evenodd" d="M35.25 29H43.5V25H23V29H30.75V67H23V71H43.5V67H35.25V57.9469L45.1193 48.8486C46.0467 50.3465 46.9166 51.759 47.7357 53.089C51.4206 59.0719 54.0778 63.3864 56.3146 66.3059C57.791 68.2328 59.2152 69.7347 60.7881 70.7448C62.4278 71.7978 64.1237 72.25 66 72.25C70.0987 72.25 72.7986 70.2845 74.3605 67.7133C75.8371 65.2826 76.25 62.4187 76.25 60.3614H71.75C71.75 61.9427 71.4129 63.8981 70.5145 65.377C69.7014 66.7155 68.4013 67.75 66 67.75C64.9272 67.75 64.0861 67.5147 63.2197 66.9583C62.2865 66.3591 61.2356 65.3297 59.8867 63.5691C57.8017 60.8477 55.3179 56.8157 51.6805 50.9111C50.7046 49.327 49.6452 47.6072 48.4886 45.7426L66.6501 29H72.5V25H54V29H60.011L35.25 51.8265V29Z" fill="var(--primary-color)"/>

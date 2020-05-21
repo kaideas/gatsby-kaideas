@@ -197,18 +197,22 @@ h1, h2, h3, h4, h5, .headline, .work {
     font-family: "jetbrains-mono", monospace;
     font-size: 1.25rem;
     font-weight: 700;
-    margin: .5rem 0 .25rem 0;
+    margin: 1rem 0 .5rem 0;
+    color: var(--secondary-text-color);
   }
 
   h4 {
     font-size: 1.25rem;
     font-weight: 400;
     margin-bottom: 1rem;
+    padding-top: 1rem;
   }
 
   p {
     font-weight: 300;
     font-size: 1.25rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
     color: var(--secondary-text-color)
   }
 
@@ -404,6 +408,10 @@ h1, h2, h3, h4, h5, .headline, .work {
   min-height: 300px;
   max-width: 700px;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+#tds-cards img {
+  max-width: 360px;
 }
 
 
